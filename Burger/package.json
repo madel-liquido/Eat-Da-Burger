@@ -1,7 +1,7 @@
 {
     "name": "burger",
     "version": "1.0.0",
-    "description": "Burger app. using input the order to output complete.",
+    "description": "Eat Da Burger app. using input the order to output complete.",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/madel-liquido/Burger.git"
+        "url": "git+https://github.com/madel-liquido/Eat-Da-Burger.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/madel-liquido/Burger/issues"
+        "url": "https://github.com/madel-liquido/Eat-Da-Burger/issues"
     },
-    "homepage": "https://github.com/madel-liquido/Burger#readme",
+    "homepage": "https://github.com/madel-liquido/Eat-Da-Burger#readme",
     "dependencies": {
         "body-parser": "^1.18.3",
         "express": "^4.16.4",
