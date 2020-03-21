@@ -1,0 +1,11 @@
+{
+    "name": "burger",
+    "version": "1.0.0",
+    "description": "Burger app that uses the order as an input to output complete",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo\"Error:no test specified\"&& exit 1",
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    }
+},
