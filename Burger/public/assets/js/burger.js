@@ -40,7 +40,6 @@ $(function() {
 
         var id = $(this).data("id");
 
-        // Send the DELETE request.
         $.ajax({
             type: "DELETE",
             url: "/api/burgers/" + id
