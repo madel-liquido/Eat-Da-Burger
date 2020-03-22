@@ -1,2 +1,2 @@
 # Eat Da Burger
-A burger logger built with MySQL, Node, Express, Handlebars structured with the MVC design pattern. 
+A burger logger built with MySQL, Node, Express, and Handlebars using the MVC design pattern. 
