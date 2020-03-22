@@ -1,2 +1,2 @@
 # Eat Da Burger
-Need to make update the README.md later
+A burger logger built with MySQL, Node, Express, Handlebars structured with the MVC design pattern. 
