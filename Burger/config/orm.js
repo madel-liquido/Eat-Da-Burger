@@ -23,7 +23,7 @@ function translateSql(ob) {
 }
 
 var orm = {
-    selectAll: function(table, cb) {
+    selectAll: (table, cb) => {
         var dbQuery = "SELECT * FROM " + table + ";";
 
         connection.query(dbQuery, function(err, res) {
@@ -33,7 +33,7 @@ var orm = {
             cb(res);
         });
     },
-    insertOne: function(table, cols, vals, cb) {
+    insertOne: (table, cols, vals, cb) => {
         var dbQuery =
             "INSERT INTO " +
             table +
@@ -45,14 +45,14 @@ var orm = {
             ") ";
 
         console.log(dbQuery);
-        connection.query(dbQuery, vals, function(err, res) {
+        connection.query(dbQuery, vals, (err, res) => {
             if (err) {
                 throw err;
             }
             cb(res);
         });
     },
-    updateOne: function(table, objColVals, condition, cb) {
+    updateOne: (table, objColVals, condition, cb) => {
         var dbQuery =
             "UPDATE " +
             table +
@@ -63,18 +63,18 @@ var orm = {
 
         console.log(dbQuery);
 
-        connection.query(dbQuery, function(err, res) {
+        connection.query(dbQuery, (err, res) => {
             if (err) {
                 throw err;
             }
             cb(res);
         });
     },
-    deleteOne: function(table, condition, cb) {
+    deleteOne: (table, condition, cb) => {
         var dbQuery = "DELETE FROM " + table + " WHERE " + condition;
         console.log(dbQuery);
 
-        connection.query(dbQuery, function(err, res) {
+        connection.query(dbQuery, (err, res) => {
             if (err) {
                 throw err;
             }
