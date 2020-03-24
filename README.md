@@ -43,8 +43,7 @@ No license
 
 # Credits 
 
-* [Inspiration](https://youtu.be/msvdn95x9OM)
-* [Tutorial Followed](https://github.com/Dcoxmen/Burger)
-
+* [Original Demo](https://youtu.be/msvdn95x9OM)
+* [Inspiration](https://github.com/Dcoxmen/Burger)
 
 
