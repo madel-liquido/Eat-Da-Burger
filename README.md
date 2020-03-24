@@ -11,13 +11,6 @@ Eat Da Burger is a burger logger built with MySQL, Node, Express, and Handlebars
 
 * The app stores every burger in a database, whether devoured or not.
 
-# Screenshots
-
-![Alt text](/Burger/public/assets/img/eatDaBurgerDemo.gif?)
-
-![Alt text](/Burger/public/assets/img/updatedDB.png)
-
-
 # Built With
 
 * MYSQL
@@ -29,4 +22,29 @@ Eat Da Burger is a burger logger built with MySQL, Node, Express, and Handlebars
 * Handlebars
 
 * MVC Design Structure
+
+# Screenshots
+
+![Alt text](/Burger/public/assets/img/eatDaBurgerDemo.gif?)
+
+![Alt text](/Burger/public/assets/img/updatedDB.png)
+
+# Tests
+No applicable tests.
+
+# Deployment
+Deployed to Heroku
+
+#  Authors
+Madel Liquido
+
+# License
+No license
+
+# Credits 
+
+* [Inspiration](https://youtu.be/msvdn95x9OM)
+* [Tutorial Followed](https://github.com/Dcoxmen/Burger)
+
+
 
