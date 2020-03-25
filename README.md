@@ -25,9 +25,9 @@ Eat Da Burger is a burger logger built with MySQL, Node, Express, and Handlebars
 
 # Screenshots
 
-![Alt text](/Burger/public/assets/img/eatDaBurgerDemo.gif?)
+![Alt text](/public/assets/img/eatDaBurgerDemo.gif?)
 
-![Alt text](/Burger/public/assets/img/updatedDB.png)
+![Alt text](/public/assets/img/updatedDB.png)
 
 # Tests
 No applicable tests.
